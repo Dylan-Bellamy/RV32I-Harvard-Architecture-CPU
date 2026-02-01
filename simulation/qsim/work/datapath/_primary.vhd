@@ -1,0 +1,42 @@
+library verilog;
+use verilog.vl_types.all;
+entity datapath is
+    port(
+        Clk             : in     vl_logic;
+        mClk            : in     vl_logic;
+        wen             : in     vl_logic;
+        en              : in     vl_logic;
+        Clr_A           : in     vl_logic;
+        Ld_A            : in     vl_logic;
+        Clr_B           : in     vl_logic;
+        Ld_B            : in     vl_logic;
+        Clr_C           : in     vl_logic;
+        Ld_C            : in     vl_logic;
+        Clr_Z           : in     vl_logic;
+        Ld_Z            : in     vl_logic;
+        Clr_PC          : in     vl_logic;
+        Ld_PC           : in     vl_logic;
+        Clr_IR          : in     vl_logic;
+        Ld_IR           : in     vl_logic;
+        Out_A           : out    vl_logic_vector(31 downto 0);
+        Out_B           : out    vl_logic_vector(31 downto 0);
+        Out_C           : out    vl_logic;
+        Out_Z           : out    vl_logic;
+        Out_PC          : out    vl_logic_vector(31 downto 0);
+        Out_IR          : out    vl_logic_vector(31 downto 0);
+        Inc_PC          : in     vl_logic;
+        Addr_Out        : out    vl_logic_vector(31 downto 0);
+        Data_In         : in     vl_logic_vector(31 downto 0);
+        Data_Out        : out    vl_logic_vector(31 downto 0);
+        Mem_Out         : out    vl_logic_vector(31 downto 0);
+        Mem_In          : out    vl_logic_vector(31 downto 0);
+        Mem_Addr        : out    vl_logic_vector(7 downto 0);
+        Data_Mux        : in     vl_logic_vector(1 downto 0);
+        Reg_Mux         : in     vl_logic;
+        A_Mux           : in     vl_logic;
+        B_Mux           : in     vl_logic;
+        Im_Mux1         : in     vl_logic;
+        Im_Mux2         : in     vl_logic_vector(1 downto 0);
+        Alu_Opcode      : in     vl_logic_vector(2 downto 0)
+    );
+end datapath;

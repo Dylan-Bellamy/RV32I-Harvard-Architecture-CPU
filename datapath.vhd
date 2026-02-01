@@ -164,7 +164,7 @@ begin
 	Out_PC <= signal_out_PC;
 	Addr_Out <= signal_out_PC;
 	
-	Data_Out <= signal_data_out;
+	Data_Out <= signal_data_bus;
 	Mem_In <=  signal_out_MuxReg;
 	Mem_Out <= signal_data_out;
 	Mem_Addr <= std_logic_vector(reducer_out);

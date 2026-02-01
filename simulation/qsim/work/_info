@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dylan\Documents\GitHub\RV32I-Harvard-Architecture-CPU\simulation\qsim
+vdatapath
+Z1 !s100 71]>CNJUhNfGhgHJSN]1o0
+Z2 I^UE@e_C?2hFo4I^jCU4W]3
+Z3 V:KX7kXmW6[8A^ibdo3emb0
+Z4 dC:\Users\Dylan\Documents\GitHub\RV32I-Harvard-Architecture-CPU\simulation\qsim
+Z5 w1769970067
+Z6 8RV32I.vo
+Z7 FRV32I.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|RV32I.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1769970067.769000
+Z12 !s107 RV32I.vo|
+!s101 -O0
+vdatapath_vlg_check_tst
+!i10b 1
+!s100 0P9l47iS<=C4e]Y3iHnfi1
+I34Wh82=4NeT978gOd1GRQ1
+Z13 V9UN_VPIQWeePfhNNN3^Hn1
+R4
+Z14 w1769970065
+Z15 8datapath.vwf.vt
+Z16 Fdatapath.vwf.vt
+Z17 L0 105
+R8
+r1
+!s85 0
+31
+Z18 !s108 1769970067.927000
+Z19 !s107 datapath.vwf.vt|
+Z20 !s90 -work|work|datapath.vwf.vt|
+!s101 -O0
+R10
+vdatapath_vlg_sample_tst
+!i10b 1
+Z21 !s100 gUM3j[bo:>JX3FBU^H9Ig2
+Z22 IDjCj48lacD@YBIG;IQh7K2
+Z23 VYHzJI:>_9bh1g;Id^NVIL2
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vdatapath_vlg_vec_tst
+!i10b 1
+!s100 mPLUg1;akPdz<RnKm8R?Q1
+ILfWTY7F=zbaBRo4]:H2E00
+Z24 V^@Kb0LjGY<clOm@lcHMDA1
+R4
+R14
+R15
+R16
+Z25 L0 2544
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
