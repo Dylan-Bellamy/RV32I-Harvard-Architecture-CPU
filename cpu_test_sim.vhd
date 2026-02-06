@@ -25,11 +25,11 @@ end cpu_test_sim;
 architecture logic of cpu_test_sim is
 	component system_memory
 		port(
-			address 	: in 	STD_LOGIC_VECTOR (5 downto 0);
-			clock 	: in 	STD_LOGIC ;
-			data 		: in 	STD_LOGIC_VECTOR (31 downto 0);
-			wren 		: in 	STD_LOGIC ;
-			q 			: out STD_LOGIC_VECTOR (31 downto 0)
+			address 	: in 	std_logic_vector (5 downto 0);
+			clock 	: in 	std_logic ;
+			data 		: in 	std_logic_vector (31 downto 0);
+			wren 		: in 	std_logic ;
+			q 			: out std_logic_vector (31 downto 0)
  );
  end component;
  

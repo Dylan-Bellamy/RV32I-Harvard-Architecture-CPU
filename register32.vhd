@@ -11,7 +11,7 @@ end register32 ;
 
 architecture logic of register32 is
 begin
-	process ( clk )
+	process ( clk, clr )
 	begin
 		-------------ASYNC CLEAR--------------
 		if clr = '1' then

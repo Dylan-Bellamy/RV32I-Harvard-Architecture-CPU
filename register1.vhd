@@ -8,7 +8,7 @@ end register1 ;
 
 architecture logic of register1 is
 begin
-	process ( clk )
+	process ( clk, clr )
 	begin
 		-------------ASYNC CLEAR--------------
 		if clr = '1' then
