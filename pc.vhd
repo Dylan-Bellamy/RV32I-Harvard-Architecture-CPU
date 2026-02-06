@@ -11,11 +11,12 @@ entity pc is
 end pc ;
 
 architecture logic of pc is
-	signal q_reg : std_logic_vector(31 downto 0) := (others => '0') ; -- pc + 4 variable
+	signal q_reg : std_logic_vector(31 downto 0) := (others => '0') ; -- pc + 1 Word / 4 Bytes / 32-bits
 	signal add : std_logic_vector(31 downto 0) ;
 begin
 	----------------OUTPUT-----------------
-	add <= q_reg + 4;
+	-- add <= q_reg + 4  If system memory is byte addressable
+	add <= q_reg + 1; -- If system memory is word addressable
 	----------------REGISTER-----------------
 	process ( clk )
 	begin
